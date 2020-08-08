@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 
-h1 {
-  font-family: 'Ubuntu', sans-serif;
-}
-
 .header {
+  font-family: 'Ubuntu', sans-serif;
   margin: auto;
   text-align: center;
   width: 70%;
+}
+
+a {
+  color: red;
+  text-decoration: none;
 }
