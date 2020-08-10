@@ -1,6 +1,6 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import SwiperCore, { Navigation, Pagination } from 'swiper';
+import SwiperCore, { Navigation, Pagination, Thumbs } from 'swiper';
 import Header from '../header/Header';
 
 SwiperCore.use([Navigation, Pagination]);
@@ -46,6 +46,8 @@ function Home() {
         tag="section"
         wrapperTag="ul"
         id="main"
+        slidesPerView={1}
+        spaceBetween={0}
         navigation
         pagination
         onSwiper={swiper => console.log(swiper)}
