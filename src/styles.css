@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #141d26;
+}
+
 .swiper-container {
   width: 500px;
 }
@@ -27,8 +31,8 @@ a {
 
 .app-wrapper {
   color: white;
-  height: 100vh;
-  /* width: 80%; */
+  min-height: 100%;
+  width: 90%;
   margin: auto;
-  background-color: #141d26;
+  /* background-color: #141d26; */
 }
