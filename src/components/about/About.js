@@ -18,6 +18,13 @@ const About = () => {
       <div>
         <img src="./images/patchSwiperImage4.jpg" alt="" />
       </div>
+
+      <a
+        href="https://twitter.com/patch_bulldog"
+        target="_blank"
+        rel="noopener noreferrer">
+        <span>@patch_bulldog</span>
+      </a>
     </div>
   );
 };
