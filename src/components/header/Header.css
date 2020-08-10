@@ -19,3 +19,9 @@ a {
 p {
   padding-bottom: 30px;
 }
+
+@media (max-width: 800px) {
+  h1 {
+    font-size: 25px;
+  }
+}
